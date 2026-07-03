@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hubungi Ria Maudina melalui formulir kontak.">
+  <title>Ria Maudina | Contact Us</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar" aria-label="Navigasi utama">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="index.html">RIA MAUDINA<span>.</span></a>
+      <button class="navbar-toggler" type="button" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="experience.html">Experience</a></li>
+          <li><a class="nav-link" href="education.html">Education</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="page-header container">
+      <p class="section-label">LET'S CONNECT</p>
+      <h1>Contact <span>Us</span></h1>
+    </header>
+
+    <section class="section-space container">
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <p class="section-label">HUBUNGI SAYA</p>
+          <h2 class="section-title">Punya pesan atau ingin <span>berkenalan?</span></h2>
+          <p class="large-copy">Silakan isi formulir di samping. Saya akan dengan senang hati membaca pesan Anda.</p>
+          <div class="contact-card">
+            <div>
+              <span>EMAIL</span>
+              <a href="mailto:riamaudina200503@gmail.com">riamaudina200503@gmail.com</a>
+            </div>
+            <div>
+              <span>TELEPON</span>
+              <a href="tel:+6289692200503">+62 896-9220-0503</a>
+            </div>
+            <div>
+              <span>LOKASI</span>
+              <p>Bojongsari, Depok</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-field">
+            <label for="name">Nama</label>
+            <input id="name" name="name" type="text" placeholder="Masukkan nama Anda" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="nama@email.com" required>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subjek</label>
+            <input id="subject" name="subject" type="text" placeholder="Topik pesan" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda" required></textarea>
+          </div>
+          <button class="btn-retro" type="submit">Kirim Pesan ↗</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© 2026 Ria Maudina</span>
+      <span>NIM: 25101750122 • Kelas: 01SIFK002</span>
+      <button id="toTop" type="button">Back to top ↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
